@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Audio">
+      <UniqueIdentifier>{07e2739b-f652-4291-93e4-a4dbe6af3d5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Menus">
+      <UniqueIdentifier>{5d4f3918-7f81-4d3f-a5a4-1982fb8c0b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête\Audio">
+      <UniqueIdentifier>{29c05f94-30e5-4e5e-b7ff-b7b67e256b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête\Bullets">
+      <UniqueIdentifier>{4ba6716e-dcbd-4f98-a17a-4e09e71b8cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête\ImGui">
+      <UniqueIdentifier>{861d8c94-4c2c-44eb-a1e5-6f2f29cccfd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Bullets">
+      <UniqueIdentifier>{5d95e9bd-1f39-4a08-ab10-fda0733b0f0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Ennemy">
+      <UniqueIdentifier>{05006508-7015-4630-be38-70acaf086628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\ImGui">
+      <UniqueIdentifier>{ca324f65-9b7b-44ad-aeb6-f31a229a5f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête\Enemy">
+      <UniqueIdentifier>{5602d863-d99e-48f3-9394-cf4ef0dfb71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Observer">
+      <UniqueIdentifier>{52bacc93-68db-46f4-99ab-6609ecd8da18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête\Observer">
+      <UniqueIdentifier>{9aefc4df-dfde-4ce6-b17c-9c3618caa5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête\Shaders">
+      <UniqueIdentifier>{aad7b617-4deb-4ef8-99d2-1ff000d33040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fichiers d%27en-tête\Menus">
+      <UniqueIdentifier>{aa50d8d7-bbc0-4220-9e09-72844d9f023e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\UI">
+      <UniqueIdentifier>{77bbbc83-1b93-4223-b33e-daee64b4242e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\UI">
+      <UniqueIdentifier>{76e166f2-9408-4e1f-aed4-831ad48837b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="VisibleGameObject.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MathVector.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SFMLSoundProvider.cpp">
+      <Filter>Fichiers sources\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceLocator.cpp">
+      <Filter>Fichiers sources\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashScreen.cpp">
+      <Filter>Fichiers sources\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Fichiers sources\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureCache.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFileCache.cpp">
+      <Filter>Fichiers sources\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Hitbox.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Fichiers sources\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Fichiers sources\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPattern.cpp">
+      <Filter>Fichiers sources\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Ennemy.cpp">
+      <Filter>Fichiers sources\Ennemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnnemyTimeline.cpp">
+      <Filter>Fichiers sources\Ennemy</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui-SFML.cpp">
+      <Filter>Fichiers sources\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletTypes.cpp">
+      <Filter>Fichiers sources\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Fichiers sources\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="UiManager.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogueManager.cpp">
+      <Filter>Fichiers sources\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeFlash.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EnergyBall.cpp">
+      <Filter>Fichiers sources\Bullets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="VisibleGameObject.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MathVector.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SFMLSoundProvider.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceLocator.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="IAudioProvider.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFileCache.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashScreen.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureCache.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitbox.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPattern.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Ennemy.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnnemyTimeline.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig-SFML.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-SFML.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui-SFML_export.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletTypes.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectObserver.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="UiManager.h">
+      <Filter>Fichiers de ressources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueManager.h">
+      <Filter>Fichiers de ressources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueObserver.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogueSubject.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Fichiers de ressources\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeFlash.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyBall.h">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Bullets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tint.frag">
+      <Filter>Fichiers de ressources\Fichiers d%27en-tête\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

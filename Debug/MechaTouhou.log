@@ -1,0 +1,11 @@
+﻿  Game.cpp
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(168,9): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(228,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(230,15): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(232,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(246,15): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(628,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(637,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(696,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(988,19): warning C4018: '<' : incompatibilité signed/unsigned
+  MechaTouhou.vcxproj -> C:\Users\Reycolas\source\repos\MechaTouhou\Debug\MechaTouhou.exe

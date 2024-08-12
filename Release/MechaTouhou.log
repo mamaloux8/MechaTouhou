@@ -1,0 +1,16 @@
+﻿  Game.cpp
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(168,9): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(228,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(230,15): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(232,1): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(246,15): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(628,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(637,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(696,62): warning C4305: 'argument' : troncation de 'double' à 'float'
+C:\Users\Reycolas\source\repos\MechaTouhou\Game.cpp(988,19): warning C4018: '<' : incompatibilité signed/unsigned
+  Génération de code en cours
+  9 of 3947 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    28 functions had inline decision re-evaluated but remain unchanged
+  Fin de la génération du code
+  MechaTouhou.vcxproj -> C:\Users\Reycolas\source\repos\MechaTouhou\Release\MechaTouhou.exe
